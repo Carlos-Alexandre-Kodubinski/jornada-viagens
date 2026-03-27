@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -40,4 +42,27 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+:root {
+    --vermelho-escuro: #8F0101;
+    --vermelho: #B81515;
+    --preto: #000000;
+    --cinza-escuro: #222222;
+    --cinza: #8C8C8C;
+    --cinza-claro: #D9D9D9;
+    --branco-acinzentado: #F5F5F5;
+    --branco: #FFFFFF;
+
+    --fonte: "Montserrat", sans-serif;
+     
+    --fonte-size-h1: 3rem;
+    --fonte-size-h2: 2.5rem;
+    --fonte-size-h3: 2rem;
+    --fonte-size-h4: 1.75rem;
+    --fonte-size-body1: 1rem;
+    --fonte-size-body2: 1.25rem;
+    --fonte-size-body3: 1.5rem;
+    --fonte-size-body4: 2rem;
+    --fonte-subtitle:  0.875rem;
 }
