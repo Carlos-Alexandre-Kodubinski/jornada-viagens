@@ -45,24 +45,28 @@ table {
 }
 
 :root {
-    --vermelho-escuro: #8F0101;
-    --vermelho: #B81515;
-    --preto: #000000;
-    --cinza-escuro: #222222;
-    --cinza: #8C8C8C;
-    --cinza-claro: #D9D9D9;
-    --branco-acinzentado: #F5F5F5;
-    --branco: #FFFFFF;
+    --darkRed: #8F0101;
+    --red: #B81515;
+    --black: #000000;
+    --darkGray: #222222;
+    --gray: #8C8C8C;
+    --lightGray: #D9D9D9;
+    --grayishWhite: #F5F5F5;
+    --white: #FFFFFF;
 
-    --fonte: "Montserrat", sans-serif;
+    --font: "Montserrat", sans-serif;
      
-    --fonte-size-h1: 3rem;
-    --fonte-size-h2: 2.5rem;
-    --fonte-size-h3: 2rem;
-    --fonte-size-h4: 1.75rem;
-    --fonte-size-body1: 1rem;
-    --fonte-size-body2: 1.25rem;
-    --fonte-size-body3: 1.5rem;
-    --fonte-size-body4: 2rem;
-    --fonte-subtitle:  0.875rem;
+    --font-size-h1: 3rem;
+    --font-size-h2: 2.5rem;
+    --font-size-h3: 2rem;
+    --font-size-h4: 1.75rem;
+    --font-size-body1: 1rem;
+    --font-size-body2: 1.25rem;
+    --font-size-body3: 1.5rem;
+    --font-size-body4: 2rem;
+    --font-subtitle:  0.875rem;
+}
+
+body {
+    font-family: var(--font);
 }
