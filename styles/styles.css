@@ -70,3 +70,8 @@ table {
 body {
     font-family: var(--font);
 }
+
+.bottom__line {
+    border-bottom: 4px solid var(--red);
+    padding-bottom: 16px;
+}
