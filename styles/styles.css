@@ -71,7 +71,15 @@ body {
     font-family: var(--font);
 }
 
-.bottom__line {
-    border-bottom: 4px solid var(--red);
-    padding-bottom: 16px;
+.bottom__line::after {
+    content: "";
+    display: block;
+    width: 180px;
+    height: 4px;
+    background-color: var(--red);
+    margin: 0 auto;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
 }
