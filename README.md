@@ -4,9 +4,16 @@ Este projeto faz parte da formação **Front-End React da Alura**, especificamen
 
 ---
 
+## 🎨 Protótipo do Projeto
+
+O desenvolvimento foi baseado no layout oficial disponibilizado no Figma:
+* [**Acessar Protótipo no Figma**](https://www.figma.com/design/TXnjaPMfJW0AriRTtxmEYG/Jornada-Viagens---Acervo--Fa%C3%A7a-uma-c%C3%B3pia-?node-id=0-1&p=f&t=PszTtdSNpLcDICZY-0)
+
+---
+
 ## 🚀 Minha Abordagem
 
-Embora o curso forneça o passo a passo para a reconstrução do layout, optei por desenvolver o projeto do zero de forma independente, utilizando apenas o protótipo do **Figma** como guia. Meu objetivo foi consolidar o aprendizado através da prática real e tomada de decisão técnica.
+Embora o curso forneça o passo a passo para a reconstrução do layout, optei por desenvolver o projeto do zero de forma independente, utilizando apenas o protótipo do Figma como guia. Meu objetivo foi consolidar o aprendizado através da prática real e tomada de decisão técnica.
 
 ### 🛠️ Destaques do Desenvolvimento
 
