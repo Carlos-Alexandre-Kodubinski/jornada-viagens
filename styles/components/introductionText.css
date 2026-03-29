@@ -1,0 +1,5 @@
+.introductionText {
+    font-size: var(--font-size-body2);
+    text-align: center;
+    line-height: 32px;
+}

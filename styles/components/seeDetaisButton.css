@@ -1,0 +1,13 @@
+.seeDetailsButton {
+    display: flex;
+    width: 280px;
+    height: 64px;
+    background-color: var(--red);
+    font-size: var(--font-size-body2);
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--white);
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}

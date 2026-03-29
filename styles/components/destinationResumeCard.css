@@ -1,0 +1,17 @@
+.destinationResumeCard {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.destinationResumeCard__cityName {
+    font-size: var(--font-size-h4);
+    font-weight: bold;
+    align-self: flex-start;
+}
+
+.destinationResumeCard__cityResume {
+    font-size: var(--font-size-body2);
+    line-height: 32px;
+}

@@ -1,12 +1,4 @@
-.content__categories--title {
-    font-size: var(--font-size-h3);
-    font-weight: bold;
-    text-align: center;
-    margin: 0 24px 32px 24px;
-    position: relative;
-}
-
-.categories__options {
+.content__categories nav{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -15,7 +7,7 @@
     margin: 0 24px;
 }
 
-.categories__options--link {
+.content__categories a {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,7 +19,7 @@
     height: 220px;
 }
 
-.link--title {
+.content__categories h4 {
     font-size: var(--font-size-h4);
     font-weight: bold;
     color: var(--black);

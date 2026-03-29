@@ -1,9 +1,8 @@
-.content__weekOffer--title {
+@import "components/seeDetaisButton.css";
+@import "components/sectionTitle.css";
+
+.content__weekOffer h4 {
     font-size: var(--font-size-h4);
-    text-align: center;
-    margin-bottom: 52px;
-    font-weight: bold;
-    position: relative;
 }
 
 .content__weekOffer--wrapCard {
@@ -25,52 +24,39 @@
     flex-grow: 1;
 }
 
-.weekOffer__card--travelPackge {
+.weekOffer__card p {
     font-size: var(--font-size-body2);
 }
 
-.weekOffer__card--destiny {
+.weekOffer__card h2 {
     font-size: var(--font-size-h2);
     font-weight: bold;
 }
 
-.weekOffer__card--price {
+.weekOffer__card h3 {
     font-size: var(--font-size-h3);
     font-weight: bold;
 }
 
-.weekOffer__card--seeDetailsButton {
-    display: flex;
-    width: 280px;
-    height: 64px;
-    background-color: var(--red);
-    font-size: var(--font-size-body2);
-    font-weight: bold;
-    text-decoration: none;
-    color: var(--white);
-    justify-content: center;
-    align-items: center;
-    border-radius: 16px;
-}
 
-.weekOffer__card--japan {
+.card--japan {
     background-image: url("../img/Mobile/Homepage/Japao.png");
 }
-.weekOffer__card--sanAndreas {
+.card--sanAndreas {
     background-image: url("../img/Mobile/Homepage/San_Andreas.png");
 }
-.weekOffer__card--paraiba {
+.card--paraiba {
     background-image: url("../img/Mobile/Homepage/Paraiba.png");
 }
-.weekOffer__card--manaus {
+.card--manaus {
     background-image: url("../img/Mobile/Homepage/Manaus.png");
 }
 
 
-.weekOffer__card--japan,
-.weekOffer__card--sanAndreas,
-.weekOffer__card--paraiba,
-.weekOffer__card--manaus {
+.card--japan,
+.card--sanAndreas,
+.card--paraiba,
+.card--manaus {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
