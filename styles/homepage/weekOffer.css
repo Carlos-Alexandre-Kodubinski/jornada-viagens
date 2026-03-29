@@ -1,5 +1,5 @@
-@import "components/seeDetaisButton.css";
-@import "components/sectionTitle.css";
+@import "../components/seeDetaisButton.css";
+@import "../components/sectionTitle.css";
 
 .content__weekOffer h4 {
     font-size: var(--font-size-h4);
@@ -40,16 +40,16 @@
 
 
 .card--japan {
-    background-image: url("../img/Mobile/Homepage/Japao.png");
+    background-image: url("../../img/Mobile/Homepage/Japao.png");
 }
 .card--sanAndreas {
-    background-image: url("../img/Mobile/Homepage/San_Andreas.png");
+    background-image: url("../../img/Mobile/Homepage/San_Andreas.png");
 }
 .card--paraiba {
-    background-image: url("../img/Mobile/Homepage/Paraiba.png");
+    background-image: url("../../img/Mobile/Homepage/Paraiba.png");
 }
 .card--manaus {
-    background-image: url("../img/Mobile/Homepage/Manaus.png");
+    background-image: url("../../img/Mobile/Homepage/Manaus.png");
 }
 
 

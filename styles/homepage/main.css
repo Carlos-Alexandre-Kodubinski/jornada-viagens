@@ -1,4 +1,4 @@
-@import url("components/introductionText.css");
+@import "../components/introductionText.css";
 
 .content {
     display: flex;
