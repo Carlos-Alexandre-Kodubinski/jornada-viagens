@@ -1,0 +1,34 @@
+.comment {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.comment__opnion {
+    font-family: var(--font-size-body1);
+    line-height: 28px;
+}
+
+.comment__user {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.comment__userPhoto {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.comment__userName {
+    font-size: var(--font-size-body2);
+    font-weight: bold;
+}
+
+.comment__userRating {
+    width: 176px;
+    height: 32px;
+    background-image: url("../../img/Header_rodapes/red_star.svg");
+    background-position: center;
+    background-repeat: space;
+}

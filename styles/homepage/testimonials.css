@@ -1,0 +1,13 @@
+@import "../components/comment.css";
+
+.content__testimonials {
+    margin: 0 24px;
+}
+
+.comment{
+    margin-bottom: 32px;
+}
+
+.comment--noMargin {
+    margin-bottom: 0;
+}

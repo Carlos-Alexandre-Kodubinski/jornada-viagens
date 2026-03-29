@@ -1,4 +1,4 @@
-.cardImage {
+.cardGallery {
     display: grid;
     grid-template-columns: 144px 144px;
     justify-content: center;

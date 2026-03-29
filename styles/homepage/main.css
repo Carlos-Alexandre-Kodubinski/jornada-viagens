@@ -5,6 +5,7 @@
     flex-direction: column;
     gap: 88px;
     justify-content: center;
+    margin-bottom: 88px;
 }
 
 .content__banner {
