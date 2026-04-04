@@ -1,15 +1,32 @@
 @import "../components/cardGallery.css";
 
 .content__paymentConditions {
+    display: flex;
+    flex-direction: column;
     margin: 0 24px;
+    gap: 24px;
 }
 
-.content__paymentConditions h4 {
+.content__blockText h4 {
     font-size: var(--font-size-h4);
     font-weight: bold;
+    margin-bottom: 24px;
 }
 
-.content__paymentConditions p {
+.content__blockText p {
     font-size: var(--font-size-body2);
-    line-height: 32px;
+}
+
+@media screen and (min-width: 1440px) {
+    .content__paymentConditions {
+        display: grid;
+        grid-template-columns: 384px 790px;
+        justify-content: space-between;
+        margin: 0 122px;
+    }
+
+    .content__paymentConditions h3 {
+        grid-column: span 2;
+        align-self: center;
+    }
 }

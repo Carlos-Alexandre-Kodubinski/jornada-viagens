@@ -1,6 +1,10 @@
 @import "../components/seeDetaisButton.css";
 @import "../components/sectionTitle.css";
 
+.content__weekOffer {
+    margin: 0 24px;
+}
+
 .content__weekOffer h4 {
     font-size: var(--font-size-h4);
 }
@@ -8,6 +12,8 @@
 .content__weekOffer--wrapCard {
     display: flex;
     flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 24px;
 }
 
 .weekOffer__card {
@@ -19,7 +25,6 @@
     width: 312px;
     height: 288px;
     border-radius: 24px;
-    margin: 0px 24px 24px 24px;
     color: var(--white);
     flex-grow: 1;
 }
@@ -60,4 +65,16 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+@media screen and (min-width: 768px) {
+    .content__weekOffer {
+        margin: 0 60px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .content__weekOffer {
+        margin: 0 120px;
+    }
 }

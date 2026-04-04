@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
+    justify-content: space-between;
 }
 
 .comment__opnion {
@@ -12,7 +13,8 @@
 .comment__user {
     display: grid;
     grid-template-columns: auto auto;
-    align-items: center;
+    justify-content: start;
+    column-gap: 24px;
 }
 
 .comment__userPhoto {
