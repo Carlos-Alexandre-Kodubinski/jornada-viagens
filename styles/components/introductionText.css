@@ -3,3 +3,9 @@
     text-align: center;
     line-height: 32px;
 }
+
+@media screen and (min-width: 768px) {
+    .introductionText {
+        font-size: var(--font-size-body4);
+    }
+}

@@ -1,0 +1,30 @@
+@import "../components/introductionText.css";
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+    justify-content: center;
+    margin-bottom: 88px;
+}
+
+.content__banner {
+    width: 100vw;
+    align-items: center;
+}
+
+.introductionText--mainDescription {
+    margin: 0 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .introductionText--mainDescription {
+        margin: 0 60px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .introductionText--mainDescription {
+        margin: 0 120px;
+    }
+}

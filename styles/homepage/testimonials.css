@@ -1,0 +1,36 @@
+@import "../components/comment.css";
+
+.content__testimonials {
+    margin: 0 24px;
+}
+
+.comment{
+    margin-bottom: 32px;
+}
+
+.comment--noMargin {
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .content__testimonials {
+        margin: 0 60px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .content__testimonials {
+        display: grid;
+        grid-template-columns: repeat(3, auto); 
+        column-gap: 24px;
+        margin: 0 120px;
+    }
+
+    .sectionTitle {
+        grid-column: span 3;
+    }
+
+    .comment{
+        margin-bottom: 0;
+    }
+}

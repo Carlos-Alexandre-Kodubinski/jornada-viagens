@@ -15,3 +15,9 @@
     font-size: var(--font-size-body2);
     line-height: 32px;
 }
+
+.destinationResumeCard__banner img ,
+.destinationResumeCard__banner
+{
+    width: 100%;
+}

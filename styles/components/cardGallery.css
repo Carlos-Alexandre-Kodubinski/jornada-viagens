@@ -1,0 +1,15 @@
+.cardGallery {
+    display: grid;
+    grid-template-columns: auto auto; 
+    justify-content: stretch;
+    gap: 24px;
+
+}
+
+.cardGallery__item img{
+    width: 100%;
+}
+
+.cardGallery__item--base {
+    grid-column: span 2;
+}
