@@ -1,0 +1,43 @@
+@import "../components/sectionTitle.css";
+
+.content__blogBanner {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../img/Mobile/Blogpost/Bannerblogpost.png");
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    height: 390px;
+    padding: 81px 24px;
+    gap: 32px;
+}
+
+.sectionTitle--blog {
+    color: var(--white);
+    text-align: left;
+    font-size: var(--font-size-h1);
+}
+
+.sectionTitle--blog::after {
+    left: 90px;
+}
+
+.content__blogBanner p {
+    color: var(--white);
+    font-size: var(--font-size-body1);
+    line-height: 32px;
+    text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+    .content__blogBanner {
+        background-image: url("../../img/Tablet/Blogpost/BannerBlog.png");
+        height: 620px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .content__blogBanner {
+        background-image: url("../../img/Desktop/Blogpost/BannerBlog.png");
+    }
+}
