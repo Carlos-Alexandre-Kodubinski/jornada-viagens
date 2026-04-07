@@ -21,9 +21,9 @@
     display: none;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 768px) {
     .header {
-        padding: 37px 120px;
+        padding: 37px 60px;
     }
     .header__desktopMenu {
         display: flex;
@@ -43,5 +43,11 @@
 
     .header__menu {
         display: none;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .header {
+        padding: 37px 120px;
     }
 }

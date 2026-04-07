@@ -1,0 +1,73 @@
+@import "../components/destinationResumeCard.css";
+@import "../components/sectionTitle.css";
+
+.content__destiny {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+}
+
+.content__destiny > div {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    width: 100%;
+}
+
+.content__asideImage,
+.content__asideImage .content__image{
+    width: 100%;
+}
+
+.content__destiny > figure,
+.content__destiny > figure img{
+    width: 100%;
+}
+
+.content__tokyoFigcaption {
+    font-size: var(--font-subtitle);
+}
+
+
+@media screen and (min-width: 768px) {
+    .content__destiny > div {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        column-gap: 24px;
+    }
+
+    .content__asideImage {
+        grid-row-start: span 2;
+        grid-column-start: 2;
+        width: auto;
+    }
+
+    .content__asideImage .content__image {
+        width: auto;
+    }
+
+    .content__text--grid {
+        grid-column-start: 1;
+        grid-row-start: 2;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .content__asideImage {
+        grid-row-start: span 2;
+        grid-column-start: 2;
+    }
+    
+    .content__title--grid {
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+    .content__text--grid {
+        margin-top: 58px;
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+
+}
