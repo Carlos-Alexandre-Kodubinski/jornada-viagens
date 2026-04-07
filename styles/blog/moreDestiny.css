@@ -1,0 +1,28 @@
+@import "../components/destinationResumeCard.css";
+@import "../components/seeDetaisButton.css";
+
+.content__moreDestiny {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.content__moreDestiny .seeDetailsButton {
+    align-self: flex-start;
+}
+
+@media screen and (min-width: 1440px) {
+    .content__moreDestiny {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        column-gap: 24px;
+    }
+
+    .content__moreDestiny .sectionTitle {
+        grid-column: span 3;
+    }
+
+    .destinationResumeCard__banner {
+        width: 100%;
+    }
+}
