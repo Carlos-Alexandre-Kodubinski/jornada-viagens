@@ -1,4 +1,4 @@
-@import "../components/cardGallery.css";
+@import "cardGallery.css";
 
 .content__paymentConditions {
     display: flex;
@@ -7,14 +7,25 @@
     gap: 24px;
 }
 
+.content__blockText {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
 .content__blockText h4 {
     font-size: var(--font-size-h4);
     font-weight: bold;
-    margin-bottom: 24px;
 }
 
 .content__blockText p {
     font-size: var(--font-size-body2);
+}
+
+@media screen and (min-width: 768px) {
+    .content__paymentConditions {
+        margin: 0 60px;
+    }
 }
 
 @media screen and (min-width: 1440px) {

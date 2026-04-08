@@ -1,0 +1,17 @@
+@import "../components/Banner.css";
+
+.content__banner--destinyImage {
+    background-image: url("../../img/Mobile/Destino/Banner_Destino.png");
+}
+
+@media screen and (min-width: 768px ) {
+    .content__banner--destinyImage {
+        background-image: url("../../img/Tablet/Destino/Banner_Destino.png");
+    }
+}
+
+@media screen and (min-width: 1440px ) {
+    .content__banner--destinyImage {
+        background-image: url("../../img/Desktop/Destino/Banner_Destino.png");
+    }
+}
