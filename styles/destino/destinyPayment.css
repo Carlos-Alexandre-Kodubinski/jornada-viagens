@@ -1,0 +1,6 @@
+@import "../components/payment.css";
+
+.content__blockText h2 {
+    font-size: var(--font-size-h2);
+    font-weight: bold;
+}
